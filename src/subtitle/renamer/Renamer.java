@@ -17,7 +17,6 @@ class Renamer
     
     public Renamer()
     {
-        // init
         videoFormats = new HashSet<String>( Arrays.asList("flv", "wmv", "mp4", "mpg", "vob", "mkv", "mov", "avi", "divx", "mpeg", "m4p", "3gp") );
         subtitlesFormats = new HashSet<String>( Arrays.asList("srt", "sub", "rt", "usf") );
         
